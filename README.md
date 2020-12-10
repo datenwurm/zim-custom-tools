@@ -17,10 +17,10 @@ upper.py | Transforms the selected text into upper case
 
 ### Issue 1 - No output
 
-'''Description:'''
+**Description:**
 
 When executing the script via zim custom tools no output is returned.
 
-'''Solution:'''
+**Solution:**
 
 Double-check the path to the script. Zim does not notify if the script is not found.
