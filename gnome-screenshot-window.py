@@ -22,6 +22,10 @@ attachment_dir = sys.argv[1]
 file_name = "Screenshot_{}.png".format(time.strftime("%Y-%m-%d-%H-%M-%S"))
 screenshot_file = os.path.join(attachment_dir, file_name)
 
+if not os.path.isdir(attachment_dir):
+    # Attachment dir might not exist yet, so we create it here ...
+    os.mkdir(attachment_dir)
+
 try:
 	# Transform input here ...
 	subprocess.run(["gnome-screenshot", "-f", screenshot_file, "-w"])
