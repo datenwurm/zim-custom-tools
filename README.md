@@ -11,6 +11,8 @@ gnome-screenshot-area.py | Takes a screenshot of an area
 gnome-screenshot-interactive.py | Takes a screenshot
 gnome-screenshot-window.py | Takes a screenshot of a selected window
 lower.py | Transforms the selected text into lower case
+sort-asc.py | Sorts the selected text in ascending order
+sort-desc.py | Sorts the selected text in descending order
 title.py | Transforms the selected text into title case
 upper.py | Transforms the selected text into upper case
 
