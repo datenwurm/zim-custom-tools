@@ -6,6 +6,7 @@ This repository contains a collection of custom tools for zim.
 
 Name | Description
 --- | ---
+code-block.py | Transforms the selected text to a code block
 csv-to-table.py | Transforms the selected comma separated text into a table 
 gnome-screenshot-area.py | Takes a screenshot of an area
 gnome-screenshot-interactive.py | Takes a screenshot
